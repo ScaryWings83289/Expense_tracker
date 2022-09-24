@@ -1,6 +1,6 @@
 // Returns Date in "DD-MM-YY" format
 export const getFormattedDate = (date) => {
-  return `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
+  return date.toISOString().slice(0, 10);
 };
 
 // Returns Date after Subtracting "N" Days
