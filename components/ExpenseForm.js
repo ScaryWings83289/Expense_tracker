@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from "react-native";
 
 // Components Imports
 import ExpenseInput from "./ExpenseInput";
-import CustomButton from "../components/Button";
+import CustomButton from "./CustomButton";
 
 // Utils Imports
 import { getFormattedDate } from "../utils/date";
